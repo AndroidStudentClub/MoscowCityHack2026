@@ -2,4 +2,9 @@
 <resources>
 
     <style name="Theme.Finni" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Finni.Splash" parent="Theme.Finni">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
 </resources>

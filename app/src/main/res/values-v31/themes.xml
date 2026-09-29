@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Finni.Splash" parent="Theme.Finni">
+        <item name="android:windowSplashScreenBackground">#5B32EA</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/finni_logo_splash</item>
+        <item name="android:windowSplashScreenAnimationDuration">300</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
