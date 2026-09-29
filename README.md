@@ -412,7 +412,7 @@ estimated_periods = ceil(remaining / max(planned_savings, 5))
 | 2.6 Не менее 3 целей | Реализовано | 4 цели; `transportGoalsHaveIncreasingPrices` |
 | 2.6 Не менее 3 стадий роста | Реализовано | `GrowthStage`, `growthStageBoundariesAreStable` |
 | 3.1 Android 8+, офлайн-цикл, необязательный шагомер | Реализовано | `minSdk 26`, отсутствие `INTERNET`, optional feature в Manifest |
-| 3.3 Подписанный release APK | **Не завершено** | release-вариант есть, но `signingConfig` и финальный подписанный артефакт не настроены |
+| 3.3 Подписанный release APK | Реализовано| [Ссылка на RuStore] (https://www.rustore.ru/catalog/app/com.mikhailskiy.finni)|
 | 3.4 Автотесты ключевой логики | Частично | [EconomyRulesTest.kt](app/src/test/java/com/mikhailskiy/finni/EconomyRulesTest.kt); нет instrumented/UI и миграционных тестов |
 | 3.4 Запуск ≤5 с, отклик ≤1 с, отсутствие сбоев | Частично | блокирующих ошибок в ручном smoke-тесте не выявлено; формальные замеры и длительный прогон не выполнены |
 | 3.5 Без аккаунтов, рекламы, реальных платежей и внешних ссылок | Реализовано | Manifest и локальная архитектура |
